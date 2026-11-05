@@ -75,7 +75,7 @@ That experience reinforced something I still use when debugging hardware today: 
 
 I learned to start with questions like:
 
-- Is the device actually receiving the correct voltage?
+- Is the device receiving the correct voltage?
 - Is the expected ground reference present?
 - Is the connector pinned correctly?
 - Is the communication signal physically present?
@@ -131,7 +131,7 @@ I also had to consider practical questions like:
 - How does it communicate with the rest of the aircraft?
 - What other subsystem relies on its output?
 - How will it physically mount inside the aircraft?
-- Can we still access it once everything is assembled?
+- Can the hardware still be accessed once everything is assembled?
 - How will we troubleshoot it if it stops working?
 
 This was one of the experiences that pushed me toward system-level electrical engineering.
